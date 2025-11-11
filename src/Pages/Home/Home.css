@@ -1,0 +1,90 @@
+.home {
+  padding: 0p 10px;
+}
+
+.hero {
+  max-width: 600px;
+  flex-direction: column;
+  margin: 80px auto;
+  gap: 30px;
+}
+
+.hero h1 {
+  font-size: max(4vw 36px);
+}
+
+.hero p {
+  width: 75%;
+  color: #e3e3e3;
+  line-height: 1.5;
+}
+
+.hero form {
+  width: 80%;
+  gap: 10px;
+}
+
+.hero form input {
+  color: black;
+  border: 0;
+  outline: 0;
+  flex: 1;
+}
+
+.hero form button {
+  background: #7927ff;
+  border: 0;
+  outline: 0;
+}
+
+.crypto_table {
+  width: 800px;
+  margin: auto;
+  background: linear-gradient(rgba(84, 3, 255, 0.15), rgba(105, 2, 153, 0.15));
+}
+.table_layout {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+}
+
+.table_layout:last-child {
+  border: none !important;
+}
+
+.table_layout img {
+  width: 35px;
+  margin-top: -15px;
+}
+.table_layout .green {
+  text-align: center;
+  color: #00d515;
+}
+.table_layout .red {
+  text-align: center;
+  color: #ff4646;
+}
+
+
+@media (max-width: 768px) {
+  .crypto_table {
+    width: 100%;
+  }
+  .table_layout {
+    grid-template-columns: 0.5fr 3fr 1fr 1fr;
+  }
+  .market_cap {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero form input {
+    width: 100px;
+  }
+  .table_layout {
+    font-size: 13px;
+  }
+  .table_layout div img {
+    width: 25px;
+  }
+}

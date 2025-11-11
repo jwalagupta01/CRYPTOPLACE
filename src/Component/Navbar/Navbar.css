@@ -1,0 +1,48 @@
+nav{
+    padding: 20px 10% !important;
+    color: #ddd;
+}
+nav img{
+    width: max(12vw, 120px);
+    cursor: pointer;
+}
+nav ul{
+    gap: 40px;
+    margin-bottom: -8px;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+.nav_right{
+    gap: max(1vw, 12px);
+}
+
+.nav_right select{
+    outline: none;
+    background: transparent;
+    height: 35px;
+}
+.nav_right select option{
+    background: rgb(2, 2, 79);
+}
+
+@media (max-width: 900px) {
+    .navbar{
+        padding: 20px 8% !important;
+    }
+    .nav_right button{
+        gap: 8%;
+        font-size: 14px;
+        padding: 8px 18px !important;
+    }
+}
+@media (max-width: 768px) {
+    .navbar{
+        padding: 20px 5% !important;
+    }
+    .navbar ul{
+        display: none !important;
+    }
+}
