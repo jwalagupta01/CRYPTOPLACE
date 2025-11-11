@@ -38,3 +38,11 @@ It fetches real-time crypto market data using the **CoinGecko API** and provides
    ```bash
    git clone https://github.com/jwalagupta01/CRYPTOPLACE.git
    ```
+
+## 🙏 Special Thanks
+
+This project was inspired and guided by the incredible **[GreatStack](https://www.youtube.com/@GreatStackDev)** YouTube channel.  
+A **huge thanks** to **GreatStack** for creating such amazing tutorials that make learning **React** and **frontend development** simple, fun, and effective. 💙
+
+🎥 **Check out GreatStack’s channel here:**  
+🔗 [https://www.youtube.com/@GreatStackDev](https://www.youtube.com/@GreatStackDev)
